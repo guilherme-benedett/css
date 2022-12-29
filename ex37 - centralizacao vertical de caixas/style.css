@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.quadradofora{
+    position: relative;
+    background-color: rgb(151, 10, 10);
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+.quadradodentro{
+    position: absolute;
+    background-color: rgb(219, 44, 213);
+    height: 200px;
+    width: 200px;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* para usar o alinhamento horizontal é usado o margin auto */
+/* para usar o alinhamento vertical é usado essas configurações logo acima */
+/* é usado essas configurações para o quadrado de dentro ficar bem no meio do quadrado de fora */
