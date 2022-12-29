@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+p{
+    line-height: 1.5em;
+}
+/* é usado esse line height para calcular o espaçamento entre linhas */

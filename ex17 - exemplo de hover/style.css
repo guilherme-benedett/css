@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div:hover{
+    color: #a52a2a;
+}
+div > p {                             /* isso significa que a div tem um paragrafo incluso */
+    display: none;                    /* isso é para esconder o que esta escrito do paragrafo dentro da div */
+    background-color: #8a2be2;
+    color: #ffffff;
+}
+div:hover > p{
+    display: block;                   
+}
+/* é para quando passar o mouse no texto da div, o paragrafo contido na div apareça */
+/* display block é para aparecer o escrito do p */

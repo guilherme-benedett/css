@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+h1{
+    /* o h1 é um modelo de caixa box level */
+    /* 
+    é possivel muda-lo para inline level usando o display como no exemplo logo abaixo 
+    */
+
+    display: inline;
+    /* no inline nao é possivel configurar height e width */
+
+}

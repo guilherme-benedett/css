@@ -1,0 +1,45 @@
+@charset "UTF-8";
+p{
+    text-indent: 20px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #d2e0e0, #4fa1e4);
+    text-align: justify;
+}
+#titulo_principal{
+    background-color: #000000;
+    color: #d2e0e0;
+    text-align: center;
+}
+.titulo{
+    background-color: #00008b;
+    color: #d2e0e0;
+    text-align: center;
+}
+.basico {
+    color: #40ce87;
+}
+.intermediario{
+    color: #686611e8;
+}
+.avançado{
+    color: #f51010;
+}
+.destaque{
+    background-color: #df9494;
+}
+
+
+/* é possivel voce escolher configurar cada tag do html de um jeito diferente */
+/* temos os seletores id e class */
+/* em HTML é id = em CSS é # */
+/* em HTML é class = em CSS é . */
+/* o id só pode usar em 1 elemento */
+/* o class pode usar em varios elementos */
+/* posso colar uma classe no meio do texto, é só usar a tag span como no exemplo no HTML */
+/* posso mais de 1 class no elemento, como no exemplo do HTML, botei junto com a classe avançado */
+
+
+
+

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: auto;
+}
+div{
+    margin-top: 30px;
+    background-color: #259cc0;
+    position: relative;
+    padding-bottom: 56.2%;
+}
+div > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+/* esta é uma configuracao padrao para colocar um video responsivo em um site */
+/* no div precisa ter o position relative */
+/* nno iframe precisa ter o position absolute */
+/* no video podem aparecer umas margens ld direito e esquerdo */
+/* para sumir essas margens é possivel configurar a porcentagem do margim bottom */

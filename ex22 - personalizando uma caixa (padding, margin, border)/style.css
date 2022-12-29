@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+h1{
+    background-color: #c5baab;
+    height: 100px;
+    width: 500px;
+    text-align: justify;
+    
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+   
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+    outline-style: double;
+    outline-width: 20px;
+    outline-color: #cf1717;
+    
+    border-color: #cf1717;
+    border-width: 10px;
+    border-style: solid;
+    margin: auto;       
+    
+    /*
+    esse margin:auto é para configurar a caixa bem no meio do navegador
+    */
+
+
+}
+
+/* este é um tipo de configuracao padrao para um modelo de caixa */
+/* caso quiser é possivel brincar la no dev tools alterando essas medidas, lembrando que se mudar la nao vai mudar no original aqui do css, é só para facilitar o projeto, foto do devtools logo abaixo */
+/* sentido de configuracao do padding/margin: top-> right-> bottom-> left 
+*/
+
+img{
+    height: 500px;
+    width: 700px;
+    border: solid;
+    border-radius: 10px;
+    display: block;
+}

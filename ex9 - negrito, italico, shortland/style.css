@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+}
+h2{
+    font: italic 900 30px Arial, Helvetica, sans-serif;
+}
+
+/* no h1 temos o exemplo de 4 codigos */
+/* o font-style é para usar o italico */
+/* o font-weight podemos escolher a numeração de 100 a 900 para negrito */
+/* ou podemos usar nesse font-weight nomes como lighter, bold e bolder */
+
+/* temos atalhos tambem chamados de shortland para expressar em 1 linha de codigo essas 4 linhas */
+/* temos no exemplo do h2 a linha de codigo resumida */
+/* a ordem precisa ser = font-style -> font - weight -> font-size -> font-family */

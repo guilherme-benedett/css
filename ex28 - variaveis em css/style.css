@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Hello Pastel';
+    src: url('Hello\ Pastel.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --lilas: #45256B;
+    --verde: #256B2E;
+    --amarelo: #6B5113;
+
+    --letra1: Arial, Helvetica, san-serif;
+    --letra2: Hello Pastel;
+
+    /* entao é assim que se aplica as variaveis */
+    /* pode ser usado qualquer nome a escolha das variaveis */
+
+
+}
+h1{
+    background-color:var(--amarelo) ;
+}
+h2{
+    color: var(--verde);
+}
+h3{
+    background-color: var(--lilas);
+}
+h4{
+    font-family: var(--letra1);
+}
+h5{
+    font-family: var(--letra2);
+    font-size: 20px;
+}

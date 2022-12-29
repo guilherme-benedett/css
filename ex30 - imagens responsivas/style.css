@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-color: #0000003a;
+}
+p{
+    text-align: justify;
+}
+main{
+    background-color: #ffffff;
+    margin: auto;
+    padding: 10px;
+
+    max-width: 800px;
+    min-width: 270px;
+}
+img{
+    width: 100%;
+}
+
+/* é usado o max width e o min width para regular o conteudo conforme a largura da janela do site */
+/* o width 100% serve para configurar a imagem conforme o tamanho da tela, ou seja, conforme a largura da janela diminui, a imagem tambem vai diminiuindo */

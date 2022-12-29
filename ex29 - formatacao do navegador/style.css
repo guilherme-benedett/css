@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* é possiveo retirar as formatações que o próprio navegador cria */
+/* usando como no exemplo acima ele tira o padding e margin de todas as tags */

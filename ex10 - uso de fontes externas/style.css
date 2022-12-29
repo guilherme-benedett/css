@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Nerko+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Klee+One&family=Nerko+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=BhuTuka+Expanded+One&family=Klee+One&family=Nerko+One&display=swap');
+
+body{
+    text-align: justify;
+}
+
+/* é possivel encontrar outros tipos de fontes externas no GOOGLE FONTS, ja que as fontes do navegador sao muito limitadas */
+
+h1{
+    font-family: 'nerko one', cursive;
+}
+p{
+    font-family: 'Klee One', cursive;
+}
+h3{
+    font-family: 'Arvo', serif;
+}
+h4{
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+
+/*  
+    para anexar uma fonte no vscode é preciso fazer isso: 
+    1° escolher uma categoria de fonte;
+    2° selecionar uma fonte;
+    3° é preciso selecionar um style para aparecer uma notificacao no quadradinho na canto superior direito;
+    4° copiar a url @import dentro da tag <style></style> e colar aqui no vscode;
+    5° tambem copiar a font-family da fonte escolhida especificado em CSS rules e colar aqui 
+    
+    temos no exemplo logo acima os passos executados
+
+*/

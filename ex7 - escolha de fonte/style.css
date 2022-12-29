@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #66471f;
+    background-image: linear-gradient(to right, #e69d9d, #d842bf);
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #434146;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1e1bbe;
+}

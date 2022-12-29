@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+h1{
+    text-align: left;
+}
+h2{
+    text-align: right;
+}
+h3{
+    text-align: justify;
+}
+h4{
+    text-align: center;
+}
+p{
+    text-indent: 30px;
+}
+
+/* é possivel alinhar o texto de diversas maneiras*/
+/* left (lado esquerdo), right (lado direito), center (lado central) */
+/* justify (justificado) */
+/* text indent é para colocar espaco lateral esquerdo na primeira linha */

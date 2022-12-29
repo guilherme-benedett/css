@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.div1{
+    background-color: #7fffd4;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000000;
+    display: inline-block;
+}
+.div2{
+    background-color: #a52a2a;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000000;
+    display: inline-block;
+}
+.div3{
+    background-color:#d2691e;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000000;
+    display: inline-block;
+}
+body{
+    text-align: center;
+}
+div:hover{
+    background-color: #c75cc7;
+}
+
+/* height é altura, width é largura */
+/* border é a borda do quadrado da div */
+/* esse display inline block é para colocar as div uma do lado da outra, ela se organiza conforme o tamanho da tela */
+
+
+/* os dois pontos se refere a um pseudoclasse */
+/* elas tem que estar relacionadas a um elemento ou uma classe */
+/* é possivel marcar um estado de um elemento/classe: marcado, vazio, habilitado*/
+/* hover significa que quando passar o mouse encima do div, ele vai ficar com a cor rosada */
+

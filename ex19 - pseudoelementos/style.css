@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #f34f8e;
+}
+a::after{
+    content: '[ link]';
+}
+a::before{
+    content: '[link] ';
+}
+.especial:before{
+    content:' visitado '
+}
+
+/*
+
+SELETORES PERSONALIZADOS
+#  = id
+.  = class
+:  = pseudoclass
+:: = pseudoemento
+>  = children
+
+*/

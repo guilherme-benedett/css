@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+p{
+    background-color: rgb(233, 107, 107);
+    height: 300px;
+    width: 300px;
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 1px 1px black;
+
+    /* o box shadow aplica sombra no modelo de caixa*/
+    /* existem 3 medidas para sombra como no exemplo*/
+    /* a primeira medida é pra espalhar sombra horizontalmente*/
+    /* a segunda medida é para espalhar sombra verticalmente*/
+    /* o a terceira medida é para deixar a sombra mais dura ou espalhada*/
+    /* a quarta medida é a cor da sombra*/
+
+
+}

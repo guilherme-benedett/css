@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+p{
+    /* o paragrafo é exemplo de modelo de caixa inline level */
+    /*
+     é possivel transforma-lo em box level, como no exemplo logo abaixo 
+     */
+     /* é possivel tambem o display inline block */
+
+    display: block;
+
+    display: inline-block;
+}

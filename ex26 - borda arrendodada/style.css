@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.artigo1{
+    background-color: #7fffd4;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    /* esse modelo de borda arrendondada pode se escolher as 4 medidas */
+}
+.artigo2{
+    background-color: #a52a2a;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px 50px;
+    /* esse modelo tem só 2 medidas */
+    /* a primeira medida é para o canto superior esquerdo e canto inferior direito */
+    /* a segunda medida é para o canto superior direito e canto inferior esquerdo*/
+
+}
+.artigo3{
+    background-color: #5f9ea0;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    /* essa medida da borda arrendodada é para formar uma bola */
+}
+.artigo4{
+    background-color: #ff7f50;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 30px;
+    /* com uma medida no border radius ele ja altera as bordas */
+}
+main{
+    text-align: center;
+    margin: auto;
+}
+article:hover{
+    background-color:  black;
+}

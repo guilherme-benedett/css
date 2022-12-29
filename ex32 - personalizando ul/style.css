@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+ul{list-style-position: inside;
+    columns: 3;
+    padding-left: 10px;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+/* é possivel personalizar o ul */
+/* list style position é para posicionar o simbolo para dentro ou fora da caixa */
+/* inside é dentro, outside é fora */
+/* columns é as colunas */
+/* list style type é para personalizar o icone do ul */
+/* no exemplo coloquei o 2714 que é o simbolo do v, tirei do emojipedia */
+/* 00A0 personalizar um caractere espaço */

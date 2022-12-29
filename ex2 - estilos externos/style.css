@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*USADO ESSE COMANDO CASO HAJA PROBLEMAS COM ACENTUAÇÃO*/
+/*NESTA PAGINA É CRIADO OS ESTILOS PARA APLICAR NAS PAGINAS*/
+
+
+body{
+    text-align: justify;
+    background-color: darkolivegreen;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+h1{
+    color: navy;
+    font-weight: 800;
+    
+
+}
+h2{
+    color: sienna;
+
+}
+p{
+    color: rgb(73, 12, 12);
+}
