@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.static{
+    height: 100px;
+    background-color: #00000046;
+    border: 2px solid #000000;
+    position: static;
+}
+.relative{
+    height: 100px;
+    background-color: #00000046;
+    border: 2px solid #000000;
+    position: ;
+    margin-top: 20px;
+    top: 5px;
+    right: 5px;
+}
+.absolute{
+    height: 100px;
+    background-color: #00000046;
+    border: 2px solid #000000;
+    position: absolute;
+    margin-top: 20px;
+    top: 0px;
+}
+.relative1{
+    height: 100px;
+    background-color: #00000046;
+    border: 2px solid #000000;
+    position: relative;
+    margin-top: 10px;
+
+}
+.absolute1{
+    height: 100px;
+    width: 50vw;
+    background-color: #ea121246;
+    border: 2px solid #000000;
+    position: absolute;
+    margin-top: 20px;
+}
