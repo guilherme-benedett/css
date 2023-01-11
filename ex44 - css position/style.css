@@ -10,7 +10,7 @@
     height: 100px;
     background-color: #00000046;
     border: 2px solid #000000;
-    position: ;
+    position: relative;
     margin-top: 20px;
     top: 5px;
     right: 5px;
@@ -29,6 +29,7 @@
     border: 2px solid #000000;
     position: relative;
     margin-top: 10px;
+    top: 20px;
 
 }
 .absolute1{
@@ -38,4 +39,6 @@
     border: 2px solid #000000;
     position: absolute;
     margin-top: 20px;
+    top: 0px;
+    right: 10px;
 }
