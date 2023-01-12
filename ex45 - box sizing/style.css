@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+div{
+    width: 300px;
+    height: 300px;
+    background-color: #0000007a;
+    margin: 10px;
+    display: inline-block;
+}
+div:hover{
+    border: 3px solid #ff0000;
+    box-sizing: border-box;
+}
+
+/* com o border box, quando se passa o mouse encima, o tamanho do bloco nao interfere na tela */
+/* sem o border box, o mouse encima dos blocos interferem na janela */
+/* o border box calcula o tamanho dos blocos para nao interferir em outros elementos */
