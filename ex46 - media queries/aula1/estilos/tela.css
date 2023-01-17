@@ -3,10 +3,10 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
-body{
+html, body{
     height: 100vh;
 }
 header{
@@ -19,6 +19,7 @@ header > h1{
 }
 menu{
     background-color: aquamarine;
+    padding: 10px;
 }
 a{  
     display: inline-block;
@@ -29,6 +30,10 @@ a{
     margin-left: 20px;
     border-radius: 10px;
 }
+a:hover{
+    background-color: #27d11776;
+    transform: translate(-10px, -10px);
+}
 article{
     text-align: justify;
     margin: auto;
@@ -36,9 +41,9 @@ article{
     margin-top: 20px;
 }
 footer{
+    text-align: center;
+    padding: 10px;
     background-color: #000000;
     color: #ffffff;
-    padding: 10px;
-    text-align: center;
+    margin-top: 20px;
 }
-

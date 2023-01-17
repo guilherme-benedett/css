@@ -5,6 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2em;
 }
 header{
     background-color: #00000057;
@@ -15,7 +16,7 @@ header > h1{
     text-shadow: 1px 1px 10px #000000;
 }
 menu{
-    background-color: aquamarine;
+    display: none;
 }
 a{  
     display: inline-block;
@@ -25,4 +26,14 @@ a{
     padding: 8px;
     margin-left: 20px;
     border-radius: 10px;
+}
+article{
+    text-align: justify;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 20px;
 }
