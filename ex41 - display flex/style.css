@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: #76747485;
+    height: 500px;
+    max-width: 1000px;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+}
+article{
+    height: 100px;
+    width: 100px;
+    background-color: #a52a2ab0;
+    border: 1px solid #000000;
+}
+
+/* 
+o display flex sempre precisa estar no container para seus filhos receberem as caracteristicas
+esse display deixa os elementos em linha, ou seja, no modo row
+os justify content alinha os elementos horizontalmente
+conhecer as configurações pois tem bastante
+
+
+*/
+
+.quadrado2{
+    background-color: #00ffff;
+}
+.quadrado3{
+    background-color: #8a2be2;
+}
+.quadrado4{
+    background-color: #deb887;
+}
+.quadrado5{
+    background-color: #7fff00;
+}
+.quadrado6{
+    background-color: #00ffff;
+}
+.quadrado7{
+    background-color: #8b008b;
+}
+.quadrado8{
+    background-color: #000000;
+}
