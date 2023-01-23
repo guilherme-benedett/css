@@ -1,7 +1,30 @@
 @charset "UTF-8";
 
-@media (min-width:481) and (max-width:768px);
+@media screen and (min-width:481px) and (max-width:768px) {
+    body{
+        background-image: url('../imagens/back-tablet.jpg');
+    }
+    main{
+        background-image: url('../imagens/icon-tablet.png');
+    }
+}
+@media screen and (min-width:769px) and (max-width:1200px){
+    body{
+        background-image: url('../imagens/back-pc.jpg');
+    }
+    main{
+        background-image: url('../imagens/icon-pc.png');
+    }
 
-body{
+}
+@media screen and (min-width:1201px){
+    body{
+        background-image: url('../imagens/back-tv.jpg');
+    }
+    main{
+        background-image: url('../imagens/icon-tv.png');
+    }
     
 }
+
+    
