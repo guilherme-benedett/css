@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('../imagens/back-phone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+main{
+    background-color: #6c6b6b6e;
+    max-width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    background-image: url('../imagens/icon-phone.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    margin-top: 20px;
+}
