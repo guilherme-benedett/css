@@ -7,23 +7,22 @@
     box-sizing: border-box;
 }
 header{
-    max-height: 96px;
+    min-height: 96px;
     background-color: #949494;
 }
 header h1{
     text-align: center;
     padding: 10px;
-}
-nav{
-    display: inline-block;
+    text-transform: capitalize;
 }
 a{
+    text-align: center;
+    border: 1px solid #000000;
     display: block;
     text-decoration: none;
     color: #ffffff;
     background-color: #585858;
     padding: 10px;
-    margin-top: 10px;
 }
 a:hover{
     background-color: #5858586d ;
@@ -31,14 +30,23 @@ a:hover{
 html{
     background-color: #D3D3D3;
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
+    overflow-x: hidden;
 }
 main{
     background-color: #ffffff;
     padding: 10px;
     border-radius: 20px;
     max-width: 800px;
+    max-height: 800px;
     margin: auto;
-    text-indent: 20px;
     margin-top: 10px;
+}
+article > h1{
+    text-align: left;
+}
+p{
+    padding: 10px 0;
+    text-indent: 20px;
+    text-align: justify;
 }
