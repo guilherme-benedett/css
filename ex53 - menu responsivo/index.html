@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="responsivo.css">
     <title>Document</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
         <span id="burguer" class="material-icons" onclick="clickNav()">menu</span>
@@ -34,6 +34,14 @@
     </main>
 
     <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 480){
+                itens.style.display = 'flex'
+            }
+            else{
+                itens.style.display ='none'
+            }
+        }
         function clickNav(){
             if (itens.style.display == 'block'){
                 itens.style.display = 'none'
@@ -60,4 +68,10 @@
     aquele link do span tem a opção selecionado como menu, mas pode escolher qualquer icone e colocar o nome ali
     para aparecer tambem as opções que estao com a tag a é preciso usar javascript para dar interatividade
 
+-->
+
+<!--
+    foi preciso usar mais um codigo javascript pois quando aumentava a largura da tela, ele nao voltava o nav um do lado do outro
+    para isso foi usado o onresize
+    diz respeito quando mudar o tamanho da tela ele vai executar o que estiver escrito no function
 -->
