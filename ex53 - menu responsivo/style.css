@@ -9,11 +9,26 @@
 header{
     min-height: 96px;
     background-color: #949494;
+    width: 100vw;
 }
 header h1{
     text-align: center;
     padding: 10px;
     text-transform: capitalize;
+}
+#burguer{
+    background-color: #D3D3D3;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+#burguer:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+nav{
+    display: none;
 }
 a{
     text-align: center;
@@ -38,15 +53,18 @@ main{
     padding: 10px;
     border-radius: 20px;
     max-width: 800px;
-    max-height: 800px;
     margin: auto;
     margin-top: 10px;
-}
-article > h1{
-    text-align: left;
 }
 p{
     padding: 10px 0;
     text-indent: 20px;
     text-align: justify;
 }
+
+/* 
+
+o overflow x hidden esconde a barra de rolagem
+o curso tem varias opções a escolha
+
+*/

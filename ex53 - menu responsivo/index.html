@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="responsivo.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <nav>
+        <span id="burguer" class="material-icons" onclick="clickNav()">menu</span>
+        <nav id="itens">
             <a href="">Opção 1</a>
             <a href="">Opção 2</a>
             <a href="">Opção 3</a>
@@ -29,6 +32,32 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quae fugit temporibus quo voluptates in fuga doloribus, perspiciatis voluptate tenetur ullam soluta. Officia repellendus sed omnis sint veritatis odit magnam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque tenetur animi et aut fugit, inventore dicta corporis distinctio cupiditate explicabo odit temporibus provident recusandae officia possimus! Aliquid omnis necessitatibus reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum odio itaque vitae ipsa eligendi, mollitia temporibus, tempora magni deserunt modi eos aliquid voluptate error eaque reiciendis possimus accusamus. Aperiam, nihil.</p>
         </article>
     </main>
+
+    <script>
+        function clickNav(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }
+            else{
+                itens.style.display = 'block'
+
+            }
+
+        }
+    </script>
     
 </body>
 </html>
+
+<!--
+
+    usei esse exercicio para criar o menu hamburguer
+    esse exercicio foi um exemplo
+
+    é possivel adicionar icones extras que o google oferece
+    o nome do site é material.io, deixei ele em favoritos
+    e é preciso dois link que eu colei aqui no HTML para funcionar
+    aquele link do span tem a opção selecionado como menu, mas pode escolher qualquer icone e colocar o nome ali
+    para aparecer tambem as opções que estao com a tag a é preciso usar javascript para dar interatividade
+
+-->
